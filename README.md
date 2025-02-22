@@ -1,2 +1,1 @@
-# TeamSelection-repo
-Recruit system for Bodybuilding Team 2025
+A web application created to assist the UNIZULU Bodybuilding Committee in their annual team selection process. The system is designed to recruit and evaluate potential members who can represent the University of Zululand at the University Sport South Africa (USSA) competitions. It streamlines candidate management and ensures an organized selection process. Built using HTML, CSS, and JavaScript, this project highlights skills in creating practical and user-focused web applications.
