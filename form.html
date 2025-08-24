@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body background="C:\Users\hp\Desktop\IMG-20250119-WA0008.jpg">
+    <!--Registration form for those who want to join-->
+    <form id="registrationForm">
+        <h3><u>Join us by fill in the form below and submit</u>.</h3>
+        <div>
+            <label>First Name:</label><br>
+            <input id="firstName" placeholder="enter your first name" required>
+        </div>
+        <div>
+            <label>Last Name:</label><br>
+            <input id="lastName" placeholder="enter your last name" required>
+        </div>
+        <div>
+            <label>Contact Number:</label><br>
+            <input id="contactNumber" placeholder="enter your phone number" required>
+        </div>
+        <div>
+            <label>Email:</label><br>
+            <input id="email" placeholder="enter your email address" required>
+        </div>
+        <div>
+            <label>Weight (<em>Note that we will confirm your weight on the Selection Day</em>):</label><br>
+            <input id="weight" placeholder="enter your weight" required>
+        </div>
+        <div>
+            <label>Height (<em>Note that we will confirm your height on the Selection Day</em>):</label><br>
+            <input id="height" placeholder="enter your height" required>
+        </div>
+        <div>
+            <label id="gender">Gender:</label>
+            <select>
+                <option>Male</option>
+                <option>Female</option>           
+             </select>
+        </div>
+        <button type="submit" id="submitForm">submit</button>
+    </form>
+    <p id="errorMessage" style="color:red;"></p>
+    <p id="successMessage" style="color:green; display: none;">Registration successful! Thank you for registering.</p>
+    <script src="form.js"></script>
+</body>
+</html>
